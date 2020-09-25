@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_acount"
+            android:icon="@drawable/ic_myaccount"
+            android:title="Account" />
+        <item
+            android:id="@+id/nav_MotPost"
+            android:icon="@drawable/ic_baselinepost"
+            android:title="Motivational Post" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_subscription"
+            android:title="Subscription" />
+
+
+
+        <item
+            android:id="@+id/nav_Settings"
+            android:icon="@drawable/ic_msett"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_About"
+            android:icon="@drawable/ic_about"
+            android:title="About" />
+        <item
+            android:id="@+id/nav_Help"
+            android:icon="@drawable/ic_help"
+            android:title="Help" />
+
+
+        <item
+            android:id="@+id/nav_refer"
+            android:icon="@drawable/ic_msett"
+            android:title="Referral Code" />
+        <item
+            android:id="@+id/nav_OtherApps"
+            android:icon="@drawable/ic_otherapps"
+            android:title="OtherApps" />
+        <item
+            android:id="@+id/nav_Logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Logout" />
+
+
+    </group>
+
+</menu>

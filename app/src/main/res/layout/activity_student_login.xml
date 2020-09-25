@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/stud"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".StudentLogin">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="45dp"
+
+        android:background="@color/white"
+
+      >
+
+        <LinearLayout
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/nameError"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:hint="TimeTable"
+                    android:singleLine="true"
+
+                    app:srcCompat="@drawable/tcms" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/emailError"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Student Login"
+                    android:textColor="@color/lightblue"
+                    android:textSize="19dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.498"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView"
+                    app:layout_constraintVertical_bias="0.073" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/phoneError"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <EditText
+                    android:textColorHint="@color/grey"
+                    android:gravity="center"
+                    android:id="@+id/edStuid"
+                    android:textColor="@color/black"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:hint="Student Id "
+                    android:maxLines="1"
+                    android:singleLine="true"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/passError"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 android:layout_marginTop="5dp">
+
+                <EditText
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/grey"
+                    android:gravity="center"
+                    android:id="@+id/edStudob"
+                     android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:hint="Date of birth"
+                    android:maxLines="1"
+                    android:singleLine="true"/>
+
+
+            </LinearLayout>
+
+
+
+            <TextView
+                android:id="@+id/tvBack"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:gravity="center"
+                android:text="Academy ID"
+                android:textColor="@color/red"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:background="@color/blue"
+        android:id="@+id/button3"
+        android:textSize="20dp"
+        android:layout_width="288dp"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Login" />
+
+
+</LinearLayout>
